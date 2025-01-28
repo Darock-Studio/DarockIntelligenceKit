@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		UFChBroTXJEd1Ra+mgI1NJyJzAc=
+		EO69MwXM2qs8Gs5FCFR83dZe8OQ=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		Wm1C+hizSxWUupOlNx7QfEKKQXg=
+		LoIQOsg8mG4SeBuaybYqcJ0FJA0=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		t7OBQHGf2EA89xIZZAEf6Y3BUDM=
+		93JTUhk9PWrXN5VsbgUBHO5JT+U=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		t7OBQHGf2EA89xIZZAEf6Y3BUDM=
+		93JTUhk9PWrXN5VsbgUBHO5JT+U=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		ii0dh+HvM+IwiBU/Ulpn1z0GHdU=
+		Dd+lyvcZnUT918pxakXnEfJCfuM=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		YS9FR+x2o4eZHXqSWHLsnDyx0Ss=
+		VPIJ6oYRU0aT/PGkJZHkYNKQhOg=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		YS9FR+x2o4eZHXqSWHLsnDyx0Ss=
+		VPIJ6oYRU0aT/PGkJZHkYNKQhOg=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		B533lSWwZ7HE1VjN29sB40CIA8U=
+		yVCHCF2ySvAHGA9CqUkXAg6loK8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v+HdjOHeddFI+URcbOIXzdSg6JsFgnzqKuaOHQqd3zg=
+			08EgSbIqbSlt2JYDhrjzuJBNUS5ZuviBTBXjw0c3m4A=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k0iGg5TjMYwqzObIhCBc4LUaRjDGAaJfP+SZacEsunM=
+			i3W+NYoXzIEl1yKPUC2tscJknKgmUAKFn4VPWmkN4dE=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+g41Q2nMQwgMbAAWCUsWK+EMMFViOyen7iyWl5/5dg=
+			zWHToWoyKBtXtd4jpsV97Ok1wP8nOVBwvitM8yy2MRE=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+g41Q2nMQwgMbAAWCUsWK+EMMFViOyen7iyWl5/5dg=
+			zWHToWoyKBtXtd4jpsV97Ok1wP8nOVBwvitM8yy2MRE=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			05Pr1PSCCQFkZ3dvMHpDIvopAIirRmXg82CgVaccWN8=
+			A/igf2pQb2p8FXx40CU061GB4O8BAEkRl4nEdohmVrM=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/+qUWRtkotdcXbToQTOISRUbnNOPcLqCvUVX87VcSI=
+			RqygYNr274C2vY8gFZIEB1TP3SjCZ28Q+UG607No9fw=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/+qUWRtkotdcXbToQTOISRUbnNOPcLqCvUVX87VcSI=
+			RqygYNr274C2vY8gFZIEB1TP3SjCZ28Q+UG607No9fw=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JW8jBrfbd7gkUKhN1A4XoVhD/RiIh76h2/n9fleiTu8=
+			qBH7mK9BbOEnMqKGZlthGBzabxI23R25+/RPku3wShA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

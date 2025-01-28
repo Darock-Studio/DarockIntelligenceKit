@@ -50,7 +50,7 @@ extension DarockIntelligenceKit.IntelligenceChatResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public func intelligenceAsk(_ model: DarockIntelligenceKit.IntelligenceModel, about prompt: Swift.String, streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceAskResponse, any Swift.Error>) -> Swift.Void)
-public func intelligenceChat(with model: DarockIntelligenceKit.IntelligenceModel, about messages: DarockIntelligenceKit.IntelligenceChatMessage, streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceChatResponse, any Swift.Error>) -> Swift.Void)
+public func intelligenceChat(with model: DarockIntelligenceKit.IntelligenceModel, about messages: [DarockIntelligenceKit.IntelligenceChatMessage], streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceChatResponse, any Swift.Error>) -> Swift.Void)
 extension DarockIntelligenceKit.IntelligenceModel : Swift.Equatable {}
 extension DarockIntelligenceKit.IntelligenceModel : Swift.Hashable {}
 extension DarockIntelligenceKit.IntelligenceModel : Swift.RawRepresentable {}

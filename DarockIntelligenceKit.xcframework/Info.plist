@@ -6,25 +6,6 @@
 	<array>
 		<dict>
 			<key>BinaryPath</key>
-			<string>DarockIntelligenceKit.framework/DarockIntelligenceKit</string>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
-			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
-			<key>LibraryPath</key>
-			<string>DarockIntelligenceKit.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
 			<string>DarockIntelligenceKit.framework/Versions/A/DarockIntelligenceKit</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>
@@ -39,23 +20,6 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>macos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>DarockIntelligenceKit.framework/DarockIntelligenceKit</string>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
-			<key>LibraryIdentifier</key>
-			<string>watchos-arm64_arm64_32</string>
-			<key>LibraryPath</key>
-			<string>DarockIntelligenceKit.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>arm64_32</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>watchos</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -89,6 +53,42 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>watchos</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>DarockIntelligenceKit.framework/DarockIntelligenceKit</string>
+			<key>DebugSymbolsPath</key>
+			<string>dSYMs</string>
+			<key>LibraryIdentifier</key>
+			<string>watchos-arm64_arm64_32</string>
+			<key>LibraryPath</key>
+			<string>DarockIntelligenceKit.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>arm64_32</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>watchos</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>DarockIntelligenceKit.framework/DarockIntelligenceKit</string>
+			<key>DebugSymbolsPath</key>
+			<string>dSYMs</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64_x86_64-simulator</string>
+			<key>LibraryPath</key>
+			<string>DarockIntelligenceKit.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
 		</dict>
