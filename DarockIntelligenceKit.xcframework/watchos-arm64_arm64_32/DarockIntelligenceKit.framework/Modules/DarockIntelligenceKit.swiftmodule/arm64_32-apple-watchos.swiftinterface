@@ -60,7 +60,7 @@ extension DarockIntelligenceKit.IntelligenceAskResponse : Swift.Decodable {
 public struct IntelligenceChatResponse {
   public var model: Swift.String
   public var createdAt: Foundation.Date
-  public var message: DarockIntelligenceKit.IntelligenceChatMessage?
+  public var message: DarockIntelligenceKit.IntelligenceChatMessage
   public var isRequestFinished: Swift.Bool
   public var totalDuration: Swift.Double?
   public var loadDuration: Swift.Double?
@@ -72,8 +72,18 @@ public struct IntelligenceChatResponse {
 extension DarockIntelligenceKit.IntelligenceChatResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-public func intelligenceAsk(_ model: DarockIntelligenceKit.IntelligenceModel, about prompt: Swift.String, streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceAskResponse, any Swift.Error>) -> Swift.Void)
-public func intelligenceChat(with model: DarockIntelligenceKit.IntelligenceModel, about messages: [DarockIntelligenceKit.IntelligenceChatMessage], streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceChatResponse, any Swift.Error>) -> Swift.Void)
+@frozen public enum HandlingResponseType {
+  case thinkOnly
+  case mainOnly
+  case all
+  public static func == (a: DarockIntelligenceKit.HandlingResponseType, b: DarockIntelligenceKit.HandlingResponseType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func intelligenceAsk(_ model: DarockIntelligenceKit.IntelligenceModel, about prompt: Swift.String, handling: DarockIntelligenceKit.HandlingResponseType = .all, streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceAskResponse, any Swift.Error>) -> Swift.Void)
+public func intelligenceChat(with model: DarockIntelligenceKit.IntelligenceModel, about messages: [DarockIntelligenceKit.IntelligenceChatMessage], handling: DarockIntelligenceKit.HandlingResponseType = .all, streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceChatResponse, any Swift.Error>) -> Swift.Void)
 extension DarockIntelligenceKit.IntelligenceModel : Swift.Equatable {}
 extension DarockIntelligenceKit.IntelligenceModel : Swift.Hashable {}
 extension DarockIntelligenceKit.IntelligenceModel : Swift.RawRepresentable {}
@@ -82,3 +92,7 @@ extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.Hashable {}
 extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.RawRepresentable {}
 extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.Sendable {}
 extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.BitwiseCopyable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.Equatable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.Hashable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.Sendable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.BitwiseCopyable {}
