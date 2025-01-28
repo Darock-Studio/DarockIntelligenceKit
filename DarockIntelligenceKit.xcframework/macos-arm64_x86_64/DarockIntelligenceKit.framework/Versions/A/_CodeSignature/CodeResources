@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQYiHeEPRsrJ3zsduJZ+VtJI045UnKk98RHtpXP0UOE=
+			71+agOqClaXr2cqSsi3/OK1uakxWzy4DITXN6SVJ1Yc=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OKlWl4QXtI3jCdiAynH2c5r5N1KenK9jz2l86vQqkbc=
+			xRg/R7NAJoCB625tKOm0NLH9apQ2T3c5DgNnpW3u1d4=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			210vcLaYIgifV0bvVWwX7Anrbk92nXUgpV47W59JKd4=
+			jeyRx+s58C6c/9e3SpWHypSEGw8BCk2kaDYw761jslg=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-macos.swiftinterface</key>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UV8QNohTSiv4ZC6+qloZXVW26tQrMiBteDfpQyELyc4=
+			2XdvmYY7aQocrN3QY3HQhO/q577v+furBd7MUUYtq2U=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ourq4uhUaR5MtZDy946A43gQozZJEe0A8lIuyGs+LPA=
+			GMGW4Brn/gC/PUpKfxM15SfWPb3J6XgRoeFV/nHjE1o=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-macos.swiftinterface</key>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OUgkuF1J05+Yu7UuLLbPROH9odw5tTKVIrlHlq8ERZc=
+			HlWrQGx1SJSw7cNqea/avKlIF1WZd72mFpvqJper0ss=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
