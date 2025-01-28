@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		RvOEhdLMhKT0uq5WTOcJD39w5U4=
+		8zYub3/ZXsaVfCyBYgebw4DJHqI=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Qe6T2SYyPJ1TtO//PGftZqMsnos=
+		5N8icqDK4QyDV9bQIOU9360i7Y8=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		deMTLqfs7BWqnUyBAmlAHuV58u8=
+		+kuiwT+kfPCddsvUEssxNAkNJqU=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		deMTLqfs7BWqnUyBAmlAHuV58u8=
+		+kuiwT+kfPCddsvUEssxNAkNJqU=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eAijdJzsAOh91ZqzBoVV8BtDIQs=
+		g42jSYtiHhhkGoT1UzgEdm5gz+k=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nxgvMrr4J0Aw5BnRYtKAK/HO8hk=
+		iDT7alqOTlbuaE3XUbnPLXYqmrI=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nxgvMrr4J0Aw5BnRYtKAK/HO8hk=
+		iDT7alqOTlbuaE3XUbnPLXYqmrI=
 		</data>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4u2PloV4i6tbjIIjuSQ03pj3w0c=
+		BAFTaypFse/uoxsjOvXU+BduaJo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jfh6e79SQw3tFZCjMVbutyeGwEhj9Ubxn2nmX/kUWwg=
+			yozgJmj+CnuxOkE4zgvRVMYcX9dp0WSJ6TCRbueA9hU=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WUIZeZBKxfPrwGMPdFss3/TSqUcbeIq4YVIV2IrnBh4=
+			csqFx7K0M+ww27uqLD+IoBjGPMYZlA2uYCaMlbP+26g=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OeoIytlwO3cwnscDya1IPu0JwE2TAjHcoyNvnhr0Ndk=
+			KYs6x7DorWqgGN4YJPVOXduWSeOhmUpyz4Dpz3MvWag=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OeoIytlwO3cwnscDya1IPu0JwE2TAjHcoyNvnhr0Ndk=
+			KYs6x7DorWqgGN4YJPVOXduWSeOhmUpyz4Dpz3MvWag=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hBuf/8b9RAQ98Aey/d51JH8XMKHxcU6W/E3VMyld1P0=
+			WGn9UdLVTVr68OklGCLJ2h1CZK+8yZnQ7Bd3dqEA8Tw=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			53JGiM5or9C2X4vIuzdn6KfFSiEQMRhH5ztcb4lfaP4=
+			++nl7X89e7AnDjRe+j4KgJvdTrMT1fdsp54QIC4UYhY=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			53JGiM5or9C2X4vIuzdn6KfFSiEQMRhH5ztcb4lfaP4=
+			++nl7X89e7AnDjRe+j4KgJvdTrMT1fdsp54QIC4UYhY=
 			</data>
 		</dict>
 		<key>Modules/DarockIntelligenceKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VP95gaO7XNUJj5NTF28+l3Jm0JafSLdRywIgxmxrifw=
+			jjTRfL7LIetDJ9w1/N7TbHL0Jo+LIH1efQJAt3/s7Os=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

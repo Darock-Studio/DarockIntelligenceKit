@@ -24,6 +24,8 @@ public enum IntelligenceModel : Swift.String {
   }
 }
 public struct IntelligenceChatMessage : Swift.Codable {
+  public var role: DarockIntelligenceKit.IntelligenceChatMessage.Role
+  public var content: Swift.String
   public init(role: DarockIntelligenceKit.IntelligenceChatMessage.Role, content: Swift.String)
   @frozen public enum Role : Swift.String, Swift.Codable {
     case system
@@ -40,11 +42,32 @@ public struct IntelligenceChatMessage : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct IntelligenceAskResponse {
+  public var model: Swift.String
+  public var createdAt: Foundation.Date
+  public var response: Swift.String
+  public var isRequestFinished: Swift.Bool
+  public var context: [Swift.Int]?
+  public var totalDuration: Swift.Double?
+  public var loadDuration: Swift.Double?
+  public var promptEvalCount: Swift.Int?
+  public var promptEvalDuration: Swift.Double?
+  public var evalCount: Swift.Int?
+  public var evalDuration: Swift.Double?
 }
 extension DarockIntelligenceKit.IntelligenceAskResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct IntelligenceChatResponse {
+  public var model: Swift.String
+  public var createdAt: Foundation.Date
+  public var message: DarockIntelligenceKit.IntelligenceChatMessage?
+  public var isRequestFinished: Swift.Bool
+  public var totalDuration: Swift.Double?
+  public var loadDuration: Swift.Double?
+  public var promptEvalCount: Swift.Int?
+  public var promptEvalDuration: Swift.Double?
+  public var evalCount: Swift.Int?
+  public var evalDuration: Swift.Double?
 }
 extension DarockIntelligenceKit.IntelligenceChatResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
