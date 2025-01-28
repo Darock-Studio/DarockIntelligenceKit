@@ -1,0 +1,6 @@
+framework module DarockIntelligenceKit {
+  umbrella header "DarockIntelligenceKit.h"
+  export *
+
+  module * { export * }
+}
