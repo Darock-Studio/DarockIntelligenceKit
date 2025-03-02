@@ -1,0 +1,99 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-xros1.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DarockIntelligenceKit
+import Combine
+@_exported import DarockIntelligenceKit
+import Dispatch
+import Foundation
+import MobileCoreServices
+import OSLog
+import Security
+import Swift
+import SystemConfiguration
+import UniformTypeIdentifiers
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+public enum IntelligenceModel : Swift.String {
+  case deepseekR1_1p5b
+  case deepseekR1_7b
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct IntelligenceChatMessage : Swift.Codable {
+  public var role: DarockIntelligenceKit.IntelligenceChatMessage.Role
+  public var content: Swift.String
+  public init(role: DarockIntelligenceKit.IntelligenceChatMessage.Role, content: Swift.String)
+  @frozen public enum Role : Swift.String, Swift.Codable {
+    case system
+    case user
+    case assistant
+    case tool
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct IntelligenceAskResponse {
+  public var model: Swift.String
+  public var createdAt: Foundation.Date
+  public var response: Swift.String
+  public var isRequestFinished: Swift.Bool
+  public var context: [Swift.Int]?
+  public var totalDuration: Swift.Double?
+  public var loadDuration: Swift.Double?
+  public var promptEvalCount: Swift.Int?
+  public var promptEvalDuration: Swift.Double?
+  public var evalCount: Swift.Int?
+  public var evalDuration: Swift.Double?
+}
+extension DarockIntelligenceKit.IntelligenceAskResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct IntelligenceChatResponse {
+  public var model: Swift.String
+  public var createdAt: Foundation.Date
+  public var message: DarockIntelligenceKit.IntelligenceChatMessage
+  public var isRequestFinished: Swift.Bool
+  public var totalDuration: Swift.Double?
+  public var loadDuration: Swift.Double?
+  public var promptEvalCount: Swift.Int?
+  public var promptEvalDuration: Swift.Double?
+  public var evalCount: Swift.Int?
+  public var evalDuration: Swift.Double?
+}
+extension DarockIntelligenceKit.IntelligenceChatResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@frozen public enum HandlingResponseType {
+  case thinkOnly
+  case mainOnly
+  case all
+  public static func == (a: DarockIntelligenceKit.HandlingResponseType, b: DarockIntelligenceKit.HandlingResponseType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func intelligenceAsk(_ model: DarockIntelligenceKit.IntelligenceModel, about prompt: Swift.String, handling: DarockIntelligenceKit.HandlingResponseType = .all, streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceAskResponse, any Swift.Error>) -> Swift.Void)
+public func intelligenceChat(with model: DarockIntelligenceKit.IntelligenceModel, about messages: [DarockIntelligenceKit.IntelligenceChatMessage], handling: DarockIntelligenceKit.HandlingResponseType = .all, streaming: Swift.Bool = true, handler: @escaping (Swift.Result<DarockIntelligenceKit.IntelligenceChatResponse, any Swift.Error>) -> Swift.Void)
+extension DarockIntelligenceKit.IntelligenceModel : Swift.Equatable {}
+extension DarockIntelligenceKit.IntelligenceModel : Swift.Hashable {}
+extension DarockIntelligenceKit.IntelligenceModel : Swift.RawRepresentable {}
+extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.Equatable {}
+extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.Hashable {}
+extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.RawRepresentable {}
+extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.Sendable {}
+extension DarockIntelligenceKit.IntelligenceChatMessage.Role : Swift.BitwiseCopyable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.Equatable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.Hashable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.Sendable {}
+extension DarockIntelligenceKit.HandlingResponseType : Swift.BitwiseCopyable {}
